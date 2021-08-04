@@ -1,4 +1,7 @@
-@import url('https://fonts.cdnfonts.com/css/cubicfive');
+@font-face {
+  font-family: 'CubicFive10';
+  src: local('CubicFive10'), url(./cubicfive10.ttf) format('opentype');
+}
 
 #root {
   cursor: none;
