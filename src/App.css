@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'CubicFive10';
-  src: local('CubicFive10'), url(./cubicfive10.ttf) format('opentype');
+  src: local('CubicFive10'), url(./fonts/cubicfive10.ttf) format('opentype');
 }
 
 #root {
