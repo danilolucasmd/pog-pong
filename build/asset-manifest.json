@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/pog-pong/build/static/css/main.7536a90f.chunk.css",
-    "main.js": "/pog-pong/build/static/js/main.2517a305.chunk.js",
-    "main.js.map": "/pog-pong/build/static/js/main.2517a305.chunk.js.map",
+    "main.css": "/pog-pong/build/static/css/main.0f7b493e.chunk.css",
+    "main.js": "/pog-pong/build/static/js/main.833d829f.chunk.js",
+    "main.js.map": "/pog-pong/build/static/js/main.833d829f.chunk.js.map",
     "runtime-main.js": "/pog-pong/build/static/js/runtime-main.a50fc2a6.js",
     "runtime-main.js.map": "/pog-pong/build/static/js/runtime-main.a50fc2a6.js.map",
     "static/js/2.e3b28927.chunk.js": "/pog-pong/build/static/js/2.e3b28927.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.ebe78717.chunk.js": "/pog-pong/build/static/js/3.ebe78717.chunk.js",
     "static/js/3.ebe78717.chunk.js.map": "/pog-pong/build/static/js/3.ebe78717.chunk.js.map",
     "index.html": "/pog-pong/build/index.html",
-    "static/css/main.7536a90f.chunk.css.map": "/pog-pong/build/static/css/main.7536a90f.chunk.css.map",
-    "static/js/2.e3b28927.chunk.js.LICENSE.txt": "/pog-pong/build/static/js/2.e3b28927.chunk.js.LICENSE.txt"
+    "static/css/main.0f7b493e.chunk.css.map": "/pog-pong/build/static/css/main.0f7b493e.chunk.css.map",
+    "static/js/2.e3b28927.chunk.js.LICENSE.txt": "/pog-pong/build/static/js/2.e3b28927.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/pog-pong/build/static/media/cubicfive10.929fbe40.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.a50fc2a6.js",
     "static/js/2.e3b28927.chunk.js",
-    "static/css/main.7536a90f.chunk.css",
-    "static/js/main.2517a305.chunk.js"
+    "static/css/main.0f7b493e.chunk.css",
+    "static/js/main.833d829f.chunk.js"
   ]
 }

@@ -40,11 +40,11 @@ class BallService {
         }
         this.resetBall();
       } else {
-        if(this.ballPosition.x > (halfPlayfield.x - (variables.barSize.width * 2)) && this.isInsideBarVerticalRange(this.ballPosition, playerBarY)) {
+        if(this.ballPosition.x > (halfPlayfield.x - (variables.barSize.width * 2)) && this.isInsideBarVerticalRange(this.ballPosition, playerBarY) && this.ballDirection.x > 0) {
           this.ballDirection.x = -this.ballDirection.x;
         }
         
-        if(this.ballPosition.x < (-halfPlayfield.x + (variables.barSize.width * 2)) && this.isInsideBarVerticalRange(this.ballPosition, enemyBarY)) {
+        if(this.ballPosition.x < (-halfPlayfield.x + (variables.barSize.width * 2)) && this.isInsideBarVerticalRange(this.ballPosition, enemyBarY) && this.ballDirection.x < 0) {
           this.ballDirection.x = -this.ballDirection.x;
         }
       }
