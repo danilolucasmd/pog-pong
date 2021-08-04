@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pog-pong/build/static/css/main.165e1f2b.chunk.css",
+    "main.js": "/pog-pong/build/static/js/main.2517a305.chunk.js",
+    "main.js.map": "/pog-pong/build/static/js/main.2517a305.chunk.js.map",
+    "runtime-main.js": "/pog-pong/build/static/js/runtime-main.a50fc2a6.js",
+    "runtime-main.js.map": "/pog-pong/build/static/js/runtime-main.a50fc2a6.js.map",
+    "static/js/2.e3b28927.chunk.js": "/pog-pong/build/static/js/2.e3b28927.chunk.js",
+    "static/js/2.e3b28927.chunk.js.map": "/pog-pong/build/static/js/2.e3b28927.chunk.js.map",
+    "static/js/3.ebe78717.chunk.js": "/pog-pong/build/static/js/3.ebe78717.chunk.js",
+    "static/js/3.ebe78717.chunk.js.map": "/pog-pong/build/static/js/3.ebe78717.chunk.js.map",
+    "index.html": "/pog-pong/build/index.html",
+    "static/css/main.165e1f2b.chunk.css.map": "/pog-pong/build/static/css/main.165e1f2b.chunk.css.map",
+    "static/js/2.e3b28927.chunk.js.LICENSE.txt": "/pog-pong/build/static/js/2.e3b28927.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a50fc2a6.js",
+    "static/js/2.e3b28927.chunk.js",
+    "static/css/main.165e1f2b.chunk.css",
+    "static/js/main.2517a305.chunk.js"
+  ]
+}
