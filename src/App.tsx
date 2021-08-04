@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import './App.css';
+import Playfield from './components/PlayField';
+import gameStateService from './services/gameState';
 
 function App() {
+  useEffect(() => {
+    document.addEventListener('click', () => {
+      gameStateService.play();
+    });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <div className='header'>
+        <label className='game-name'>POG PONG</label>
+      </div>
+      <Playfield />
     </div>
   );
 }

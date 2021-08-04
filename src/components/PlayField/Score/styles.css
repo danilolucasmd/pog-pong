@@ -1,0 +1,16 @@
+.score-container {
+  display: flex;
+  position: absolute;
+  width: calc(100% - 23px);
+  justify-content: center;
+}
+
+.score {
+  margin: 0 50px 0 50px;
+}
+
+.score-label {
+  font-size: 100px;
+  color: #fff;
+  font-family: 'CubicFive11', sans-serif;
+}

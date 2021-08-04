@@ -1,0 +1,7 @@
+.ball {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  position: absolute;
+  left: calc(50% - 10px);
+}

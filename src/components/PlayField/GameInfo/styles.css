@@ -1,0 +1,14 @@
+.game-info {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.game-state-label {
+  color: #fff;
+  font-size: 100px;
+  font-family: 'CubicFive10', sans-serif;
+  background-color: #000;
+}
