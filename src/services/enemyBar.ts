@@ -1,5 +1,4 @@
-import { BehaviorSubject, filter, fromEvent, map, switchMap, tap } from "rxjs";
-import { Vector2 } from "../interfaces/core";
+import { BehaviorSubject, filter, map, switchMap } from "rxjs";
 import { lerp, variables } from "../utils";
 import ballService from "./ball";
 import gameStateService, { gameStates } from "./gameState";

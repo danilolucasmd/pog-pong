@@ -1,8 +1,7 @@
 import './styles.css';
 
-import { map } from 'rxjs';
-import { useObservable } from '../../../hooks';
 import playerBarService from '../../../services/playerBar';
+import { useObservable } from 'react-use-observable';
 
 const PlayerBar = () => {
   const [playerBarY] = useObservable(() => playerBarService.getPlayerBarY(), []);

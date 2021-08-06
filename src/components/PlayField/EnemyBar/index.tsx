@@ -1,6 +1,4 @@
-import { debounceTime, delay, map } from 'rxjs';
-import { useObservable } from '../../../hooks';
-import ballService from '../../../services/ball';
+import { useObservable } from 'react-use-observable';
 import enemyBarService from '../../../services/enemyBar';
 import './styles.css';
 

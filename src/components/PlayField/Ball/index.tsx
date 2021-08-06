@@ -1,4 +1,4 @@
-import { useObservable } from '../../../hooks';
+import { useObservable } from 'react-use-observable';
 import ballService from '../../../services/ball';
 import './styles.css';
 

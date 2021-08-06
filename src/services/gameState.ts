@@ -1,5 +1,4 @@
 import { BehaviorSubject } from "rxjs";
-import ballService from "./ball";
 import scoreService from "./score";
 
 export const gameStates = {

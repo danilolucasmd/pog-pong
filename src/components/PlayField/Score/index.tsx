@@ -1,7 +1,7 @@
 import './styles.css';
 
-import { useObservable } from "../../../hooks";
 import scoreService from "../../../services/score";
+import { useObservable } from 'react-use-observable';
 
 const Score = () => {
   const [score] = useObservable(() => scoreService.getScore(), []);

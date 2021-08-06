@@ -1,5 +1,4 @@
-import { BehaviorSubject, fromEvent } from "rxjs";
-import { Vector2 } from "../interfaces/core";
+import { BehaviorSubject } from "rxjs";
 
 interface IScore {
   player: number;
