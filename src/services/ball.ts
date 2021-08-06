@@ -2,7 +2,6 @@ import { BehaviorSubject } from "rxjs";
 import { Vector2 } from "../interfaces/core";
 import { getRandomInt, variables } from "../utils";
 import enemyBarService from "./enemyBar";
-import gameStateService, { gameStates } from "./gameState";
 import playerBarService from "./playerBar";
 import scoreService from "./score";
 
@@ -18,10 +17,6 @@ class BallService {
     this.resetBall();
   
     setInterval(() => {
-      if(gameStateService.getStaticGameState() !== gameStates.playing) {
-        return;
-      }
-
       const halfPlayfield: Vector2 = {
         x: (document.body.offsetWidth - variables.barSize.width) / 2,
         y: (document.body.offsetHeight - variables.barSize.height) / 2
@@ -57,10 +52,6 @@ class BallService {
     }, 1);
 
     setInterval(() => {
-      if(gameStateService.getStaticGameState() !== gameStates.playing) {
-        return;
-      }
-
       this.increaseBallSpeed();
     }, 1000);
   }

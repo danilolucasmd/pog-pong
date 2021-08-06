@@ -1,7 +1,6 @@
-import { BehaviorSubject, filter, map, switchMap } from "rxjs";
+import { BehaviorSubject, map } from "rxjs";
 import { lerp, variables } from "../utils";
 import ballService from "./ball";
-import gameStateService, { gameStates } from "./gameState";
 
 class EnemyBarService {
   private enemyDifficulty = 0.06;
@@ -9,10 +8,6 @@ class EnemyBarService {
 
   constructor() {
     ballService.getBallPosition().pipe(
-      switchMap(ballPosition => gameStateService.getGameState().pipe(
-        filter(gameState => gameState === gameStates.playing),
-        map(() => ballPosition)
-      )),
       map(ballPosition => {
         const halfPlayfieldY = document.body.offsetHeight / 2;
         const halfPlayfieldYNormalized = halfPlayfieldY - variables.barSize.height;

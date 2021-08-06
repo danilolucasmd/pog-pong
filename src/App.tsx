@@ -1,15 +1,7 @@
-import { useEffect } from 'react';
 import './App.css';
 import Playfield from './components/PlayField';
-import gameStateService from './services/gameState';
 
 function App() {
-  useEffect(() => {
-    document.addEventListener('click', () => {
-      gameStateService.play();
-    });
-  }, []);
-
   return (
     <div className='container'>
       <div className='header'>
